@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- animasi -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- feather icon -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Himif Adzkia</title>
+  <link rel="icon" type="image/x-icon" href="img/Logo Himif.png" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/Logo Himif.png" alt="Logo HIMIF" class="me-2" style="width: 40px; height: 40px;" />
+        <a class="navbar-brand" href="#">HIMIF</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#kegiatan">Kegiatan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#contact">Kontak</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Struktur Hima
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="struktur.html">Devisi Humas</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#struktur">Devisi Media</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Devisi Kwu</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Devisi Minat Bakat</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section d-flex align-items-center justify-content-center text-center text-white" style="
+        height: 130vh;
+        background: url('img/IMG-20241217-WA0043.jpg') no-repeat center
+          center/cover;
+      ">
+    <div class="container"data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom"
+    data-aos-duration="1000"><h1 class="display-4 fw-bold">Selamat Datang </h1>
+      <p class="lead">Website Resmi Himpunan Mahasiswa Informatika Adzkia</p>
+      <a href="#contact" class="btn btn-primary btn-lg mt-3">Hubungi Kami</a>
+    </div>
+  </section>
+
+  <!-- end -->
+
+  <!-- about section -->
+  <section class="p-1" id="about">
+    <div class="container py-5">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="600">
+          <img src="img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md p-5" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="600" >
+          <h2 style="color: rgb(19, 19, 122)">
+            Himpunan Mahasiswa informatika Universitas Adzkia
+          </h2>
+          <p style="text-align: justify">
+            Himpunan Mahasiswa Informatika Adzkia adalah sebuah organisasi
+            mahasiswa yang berfungsi sebagai wadah bagi mahasiswa program
+            studi Informatika di Universitas Adzkia untuk
+            belajar,berkembang,dan berkontribusi dalam dunia teknologi. Kami
+            percaya bahwa setiap mahasiswa mamiliki potensi besar untuk
+            menjadi inovator dan pemimpin di era digital
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid pt-5 pb-5">
+        <div class="container text-center"></div>
+
+        <div class="row justify-content-center pt-4 gx-4 gy-4">
+          <div class="col-md-6 col-lg-4 text-center ketum" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <img src="img/logo.png" alt="Fauzan Mufid" class="rounded-circle mb-3 img-fluid" />
+            <h5>Fauzan Mufid</h5>
+            <p>Ketua Umum</p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 text-center ketum" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <img src="img/logo.png" alt="Zaid" class="rounded-circle mb-3 img-fluid" />
+            <h5>Zaid</h5>
+            <p>Wakil Ketua</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- and -->
+
+  <!-- kegiatan  -->
+  <section id="kegiatan">
+    <div class="container">
+      <div class="row text-center mb-3 pt-5">
+        <div class="col">
+          <h2 style="color: rgb(19, 19, 122);">Kegiatan</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3"data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div class="card">
+            <img src="img/upgrading 2024.JPG" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-text">Upgrading Raker 2024</h5>
+              <p class="card-text"style="text-align: justify">
+                Kegiatan ini bertujuan untuk memperkuat semangat kerja tim dalam organisasi Himpunan Mahasiswa
+                Informatika. Melalui sesi upgrading, anggota akan mendapatkan wawasan baru, memperbaiki strategi kerja,
+                dan meningkatkan kolaborasi demi mencapai visi bersama.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3" data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div class="card">
+            <img src="img/temu ramah 2024.JPG" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-text">Temu Ramah Angkatan 2024</h5>
+              <p class="card-text"style="text-align: justify">
+                Acara ini menjadi ajang silaturahmi bagi anggota Himpunan Mahasiswa Informatika. Dengan suasana hangat
+                dan penuh keakraban, Temu Ramah bertujuan untuk mempererat hubungan antaranggota, menciptakan harmoni,
+                dan memperkuat rasa kekeluargaan di dalam organisasi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div class="card">
+            <img src="img/it clinic.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-text">IT Clinic & Pameran IOT</h5>
+              <p class="card-text"style="text-align: justify">
+                Acara ini menggabungkan layanan konsultasi teknologi melalui IT Clinic dengan eksplorasi inovasi terbaru
+                di Pameran IoT. Peserta dapat menyelesaikan masalah teknis sekaligus mengeksplorasi berbagai perangkat
+                Internet of Things yang canggih, membuka wawasan baru tentang masa depan teknologi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Gambar WhatsApp 2025-01-02 pukul 11.55.48_c6bed972.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-text">Upgrading Raker 2024</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt illo corporis cumque suscipit pariatur nihil
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- and -->
+
+  <!-- contact section -->
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Contact Info and Map -->
+        <div class="col-lg-6 mb-4" data-aos="zoom-in" data-aos-duration="600">
+          <h2 class="text-center mb-4">Lokasi Kami</h2>
+          <div class="map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3260038010809!2d100.39293062173336!3d-0.9199752999999902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b85907746803%3A0xf42e7d2486ebb80b!2sUniversitas%20Adzkia!5e0!3m2!1sid!2sid!4v1736140735273!5m2!1sid!2sid"
+              width="100%" height="300" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-6">
+          <h2 class="text-center mb-4">Kirim Pesan</h2>
+          <form action="contact-handler.php" method="post">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan nama Anda" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email Anda"
+                required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Pesan</label>
+              <textarea class="form-control" id="message" name="message" rows="5"
+                placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- and -->
+
+  <!-- Footer Section -->
+  <footer class="footer-section text-white py-4" style="background-color: #1a1a2e">
+    <div class="container">
+      <div class="row">
+        <!-- About Section -->
+        <!-- <div class="col-lg-4 mb-4">
+        <h5>HIMIF Adzkia</h5>
+        <p>
+          Himpunan Mahasiswa Informatika Adzkia adalah komunitas mahasiswa yang berkomitmen untuk mendukung pengembangan teknologi, inovasi, dan kreativitas di bidang informatika.
+        </p>
+      </div> -->
+
+        <!-- Quick Links -->
+        <div class="col-lg-4 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#about" class="text-white text-decoration-none">About</a>
+            </li>
+            <li>
+              <a href="#kegiatan" class="text-white text-decoration-none">Kegiatan</a>
+            </li>
+            <li>
+              <a href="#contact" class="text-white text-decoration-none">Kontak</a>
+            </li>
+            <li>
+              <a href="#struktur" class="text-white text-decoration-none">Struktur Hima</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-4 mb-4">
+          <h5>Kontak Kami</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i data-feather="map-pin"></i> Jl. Taratak Paneh No. 7 Korong Gadang, Kalumbuk, Kec. Kuranji, Kota Padang
+            </li>
+            <li><i data-feather="phone"></i> +62 812 3456 7890</li>
+            <li><i data-feather="mail"></i> info@himifadzkia.com</li>
+          </ul>
+
+          <!-- Social Media Icons -->
+          <div class="mt-3">
+            <a href=" " class="text-white text-decoration-none me-3" target="_blank">
+              <i data-feather="youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/himif.adzkia?igsh=bjI4aDN6YW9uMDF0"
+              class="text-white text-decoration-none me-3" target="_blank">
+              <i data-feather="instagram"></i>
+            </a>
+            <a href="https://www.youtube.com" class="text-white text-decoration-none" target="_blank">
+              <a href="https://www.tiktok.com/@himif.universitas?_t=ZS-8spcTVjDjV9&_r=1"><i class="fab fa-tiktok"
+                  style="color: rgb(250, 250, 250);"></i></a>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="text-white" />
+      <div class="text-center">
+        <p class="mb-0">© Copyright 2025 HIMIF Adzkia</p>
+      </div>
+    </div>
+  </footer>
+  <!-- and -->
+
+  <!-- feather icon -->
+  <script>
+    feather.replace();
+  </script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+    class="map"></script>
+  <!-- animasi -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
